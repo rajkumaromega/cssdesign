@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+header {
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+}
+.demanding-skills {
+  background-color: beige;
+  color: black;
+}
+
+.demanding-skills a {
+  color: white;
+}
+.demanding-skills a:hover {
+  color: yellow;
+}
+.btn {
+  background-color: blueviolet;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  width: 20%;
+  display: block;
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+.work-experience {
+  background-color: beige;
+  color: black;
+}
+.content-wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+h1 {
+  margin: 0;
+  line-height: 2;
+}
+p {
+  margin: 0;
+}
+.content-wrap h4 {
+  margin: 0;
+}
+h1,
+h4,
+a {
+  font-family: "Caveat", cursive;
+  font-weight: 400px;
+}
+header p {
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  margin: 10px;
+}
+.project-item {
+  overflow: hidden;
+}
+.project-item p {
+  margin-top: 5px;
+}
+
+.project-item img {
+  float: left;
+}
+.linkedinbtn a {
+  float: left;
+}
+.menbtn a {
+  float: left;
+}
+.project3btn a {
+  float: left;
+}
+footer {
+}
+.footer li {
+  list-style-type: none;
+  color: blueviolet;
+  padding: 5px;
+  display: inline-block;
+}
+
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+}
